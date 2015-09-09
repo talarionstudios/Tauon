@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Node Playground</title>
+    <base href="." />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- injector:css -->
+    <link rel="stylesheet" href="/assets/css/default.css">
+    <!-- endinjector -->
+</head>
+<body>
+    <div ncy-breadcrumb></div>
+
+    <p>
+        <a ui-sref="state1" class="btn btn-primary">State1</a>
+        <a ui-sref="state2" class="btn btn-success">State2</a>
+    </p>
+
+    <div ui-view></div>
+
+    <script data-main="app/main" src="bower_components\requirejs\require.js"></script>
+</body>
+</html>

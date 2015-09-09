@@ -1,0 +1,29 @@
+{
+  "name": "tauon",
+  "version": "1.0.0",
+  "main": "index.html",
+  "moduleType": [
+    "amd",
+    "es6",
+    "node"
+  ],
+  "authors": [
+    "xkodiak"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.4",
+    "requirejs": "~2.1.19",
+    "angular": "~1.4.3",
+    "angular-ui-router": "~0.2.15",
+    "jquery": "~2.1.4",
+    "angular-breadcrumb": "~0.4.0"
+  }
+}
